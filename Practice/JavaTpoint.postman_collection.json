@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "e168c9fb-45c6-4fbb-a288-2b5fb9db23b9",
+		"name": "JavaTpoint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Home Page",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"console.log (\"This is a pre-request script\")  \r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"If 100 equal to 200\", function(){  \r",
+							"    pm.expect(100).to.eql(200);  \r",
+							"}); \r",
+							"pm.test(\"Number included\", function(){  \r",
+							"pm.expect([100,200,300]).to.include(300);  \r",
+							"});  \r",
+							"pm.test(\"Compare Name\", function(){  \r",
+							"  \r",
+							"let x= {  \r",
+							"\"name\" : \"Nikita\"  \r",
+							"};  \r",
+							"  \r",
+							"let y= {  \r",
+							"\"name\"  : \"Nikita\"  \r",
+							"};  \r",
+							"  \r",
+							"pm.expect(x).to.eql(y);  \r",
+							"});  \r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}",
+					"host": [
+						"{{baseURL}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GoogleToJavaTpoint",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"console.log (\"This is a pre-request script\")  \r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.google.com/search?k=javatpoint",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"com"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "k",
+							"value": "javatpoint"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"If 100 equal to 200\", function(){  \r",
+							"    pm.expect(100).to.eql(200);  \r",
+							"});  \r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}",
+					"host": [
+						"{{baseURL}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,873 @@
+{
+	"id": "72791c02-ec80-4659-821c-5e0dfcbc9b92",
+	"name": "HttpRequestType",
+	"timestamp": "2021-07-14T10:36:05.375Z",
+	"collection_id": "8d8c15b6-1486-4441-8e97-1294d54b129b",
+	"folder_id": 0,
+	"environment_id": "c7f2f32a-2eae-405f-bed8-c761e9b7e36d",
+	"totalPass": 100,
+	"totalFail": 200,
+	"results": [
+		{
+			"id": "3fc56a30-355e-416f-bc1f-c5f6cded2e72",
+			"name": "Get",
+			"time": 473,
+			"responseCode": {
+				"code": 200,
+				"name": "200"
+			},
+			"tests": {
+				"Status code: Code is 200": true,
+				"Check if user with id1 is Leanne Graham": false,
+				"Check if user Antonette exists": false
+			},
+			"testPassFailCounts": {
+				"Status code: Code is 200": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Check if user with id1 is Leanne Graham": {
+					"pass": 0,
+					"fail": 100
+				},
+				"Check if user Antonette exists": {
+					"pass": 0,
+					"fail": 100
+				}
+			},
+			"times": [
+				7941,
+				455,
+				604,
+				710,
+				733,
+				709,
+				205,
+				206,
+				630,
+				205,
+				198,
+				513,
+				208,
+				234,
+				204,
+				215,
+				493,
+				203,
+				226,
+				463,
+				466,
+				490,
+				494,
+				210,
+				194,
+				196,
+				205,
+				198,
+				830,
+				487,
+				534,
+				662,
+				210,
+				644,
+				488,
+				466,
+				191,
+				229,
+				673,
+				205,
+				199,
+				228,
+				267,
+				221,
+				188,
+				194,
+				234,
+				213,
+				194,
+				654,
+				400,
+				715,
+				389,
+				205,
+				266,
+				638,
+				200,
+				554,
+				698,
+				226,
+				208,
+				700,
+				459,
+				564,
+				219,
+				225,
+				201,
+				297,
+				206,
+				208,
+				232,
+				206,
+				204,
+				469,
+				186,
+				199,
+				469,
+				216,
+				212,
+				624,
+				234,
+				704,
+				707,
+				202,
+				535,
+				216,
+				217,
+				642,
+				632,
+				483,
+				563,
+				459,
+				651,
+				214,
+				494,
+				199,
+				669,
+				213,
+				196,
+				473
+			],
+			"allTests": [
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				},
+				{
+					"Status code: Code is 200": true,
+					"Check if user with id1 is Leanne Graham": false,
+					"Check if user Antonette exists": false
+				}
+			]
+		},
+		{
+			"id": "bc4c20a4-169e-4e3f-9bb2-3531eeaf44fc",
+			"name": "Post",
+			"time": 647,
+			"responseCode": {
+				"code": 200,
+				"name": "200"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				581,
+				493,
+				200,
+				209,
+				526,
+				622,
+				462,
+				655,
+				194,
+				209,
+				206,
+				589,
+				211,
+				559,
+				491,
+				626,
+				224,
+				219,
+				508,
+				402,
+				206,
+				190,
+				218,
+				234,
+				327,
+				735,
+				717,
+				209,
+				611,
+				220,
+				256,
+				229,
+				783,
+				216,
+				511,
+				461,
+				223,
+				205,
+				619,
+				718,
+				208,
+				209,
+				223,
+				531,
+				738,
+				229,
+				207,
+				195,
+				216,
+				599,
+				207,
+				532,
+				203,
+				216,
+				617,
+				215,
+				237,
+				232,
+				213,
+				213,
+				578,
+				206,
+				194,
+				228,
+				227,
+				709,
+				16419,
+				440,
+				201,
+				755,
+				616,
+				237,
+				469,
+				615,
+				744,
+				639,
+				197,
+				218,
+				569,
+				629,
+				596,
+				224,
+				189,
+				195,
+				268,
+				479,
+				708,
+				278,
+				201,
+				537,
+				686,
+				787,
+				205,
+				211,
+				369,
+				223,
+				760,
+				393,
+				215,
+				647
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 100,
+	"totalTime": 100692,
+	"collection": {
+		"requests": [
+			{
+				"id": "3fc56a30-355e-416f-bc1f-c5f6cded2e72",
+				"method": "GET"
+			},
+			{
+				"id": "bc4c20a4-169e-4e3f-9bb2-3531eeaf44fc",
+				"method": "POST"
+			}
+		]
+	}
+}

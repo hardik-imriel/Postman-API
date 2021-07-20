@@ -1,0 +1,128 @@
+{
+	"id": "bea0087f-b304-4712-907a-39e2f3a482e5",
+	"name": "JavaTpoint",
+	"timestamp": "2021-07-14T10:38:14.815Z",
+	"collection_id": "e168c9fb-45c6-4fbb-a288-2b5fb9db23b9",
+	"folder_id": 0,
+	"environment_id": "c7f2f32a-2eae-405f-bed8-c761e9b7e36d",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "cdd24f33-f59a-47ec-ac07-e7e0711954f1",
+			"name": "Home Page",
+			"time": 664,
+			"responseCode": {
+				"code": 200,
+				"name": "200"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				642,
+				621,
+				614,
+				340,
+				627,
+				728,
+				605,
+				340,
+				15312,
+				761,
+				579,
+				747,
+				348,
+				582,
+				614,
+				594,
+				331,
+				664
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "dc997f89-8b46-4712-b099-57b5f0ddcb1d",
+			"name": "GoogleToJavaTpoint",
+			"time": 199,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				221,
+				221,
+				201,
+				213,
+				204,
+				218,
+				239,
+				207,
+				232,
+				216,
+				227,
+				203,
+				206,
+				227,
+				203,
+				223,
+				233,
+				199
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 18,
+	"totalTime": 28942,
+	"collection": {
+		"requests": [
+			{
+				"id": "cdd24f33-f59a-47ec-ac07-e7e0711954f1",
+				"method": "GET"
+			},
+			{
+				"id": "dc997f89-8b46-4712-b099-57b5f0ddcb1d",
+				"method": "GET"
+			}
+		]
+	}
+}

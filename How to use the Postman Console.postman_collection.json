@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "9349429e-3744-467b-a127-e3881f0dffc8",
+		"name": "How to use the Postman Console",
+		"description": "This collection contains examples of how you can use the [Postman console](https://learning.getpostman.com/docs/postman/sending-api-requests/debugging-and-logs/#network-calls-with-postman-console) for more visibility when debugging.\n\nTo open the Postman console, head to \"View\" in the application menu, and click on \"Show Postman Console\" or use the keyboard shortcut **(CMD/CTRL + ALT + C)**.\n\nEvery network call along with its headers, network information, and payloads will be logged to the Postman Console. Additionally, the console will display `console.log()`, `console.info()`, `console.warn()`, and `console.error()` messages from inside [the Postman scripts](https://learning.getpostman.com/docs/postman/scripts/intro-to-scripts/). Log statements can be written from either the pre-request or tests script tabs.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "message types",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"console.warn(\"This is a warning!\");",
+							"console.log(\"I'm a boring old log.\");",
+							"console.info(\"I am helpful information\");",
+							"console.error(\"I am an annoying error\");",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				},
+				"description": "Under the **Pre-request Script** tab, view examples of various log statements that will display in the Postman console when you send this request.\n\n```\nconsole.warn(\"This is a warning!\");\nconsole.log(\"I'm a boring old log.\");\nconsole.info(\"I am helpful information\");\nconsole.error(\"I am an annoying error\");\n```"
+			},
+			"response": []
+		},
+		{
+			"name": "async request",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.sendRequest(\"https://postman-echo.com/get?fooZ=ba11&blah=bar4\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get?foo1=bar1&foo2=bar2",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "foo1",
+							"value": "bar1"
+						},
+						{
+							"key": "foo2",
+							"value": "bar2"
+						}
+					]
+				},
+				"description": "Under the **Tests** tab, view an example of [an asynchronous request](https://learning.getpostman.com/docs/postman/scripts/postman-sandbox-api-reference/#pmsendrequest) that will display in the Postman console when you send this request.\n\n```\npm.sendRequest();\n```"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

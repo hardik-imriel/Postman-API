@@ -1,0 +1,174 @@
+{
+	"id": "921915ea-e2c5-44ad-beec-46fa9f3bb4d8",
+	"name": "DemoBlaze",
+	"timestamp": "2021-07-14T10:35:18.543Z",
+	"collection_id": "ce96e698-9f6f-4b88-ba20-9cb11d52c8e6",
+	"folder_id": 0,
+	"environment_id": "c7f2f32a-2eae-405f-bed8-c761e9b7e36d",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8952cd58-c046-43f1-bb64-bb4ddb629bde",
+			"name": "HomePage",
+			"time": 162,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1699,
+				135,
+				139,
+				145,
+				130,
+				149,
+				153,
+				142,
+				155,
+				162
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "21c9f514-ce90-4e8a-b3c3-63aeae384dd1",
+			"name": "ProductPage",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				439,
+				158,
+				129,
+				138,
+				148,
+				144,
+				135,
+				127,
+				127,
+				129
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "fdb37eb9-b8cd-46cd-8e40-48c7901a87af",
+			"name": "CartPage",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				443,
+				142,
+				133,
+				127,
+				123,
+				127,
+				130,
+				139,
+				130,
+				123
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "2fb5d070-2d23-425e-9dad-45bc5d27c6d0",
+			"name": "PlaceOrder",
+			"time": 377,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1118,
+				385,
+				360,
+				508,
+				515,
+				492,
+				308,
+				378,
+				312,
+				377
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 11053,
+	"collection": {
+		"requests": [
+			{
+				"id": "8952cd58-c046-43f1-bb64-bb4ddb629bde",
+				"method": "GET"
+			},
+			{
+				"id": "21c9f514-ce90-4e8a-b3c3-63aeae384dd1",
+				"method": "GET"
+			},
+			{
+				"id": "fdb37eb9-b8cd-46cd-8e40-48c7901a87af",
+				"method": "GET"
+			},
+			{
+				"id": "2fb5d070-2d23-425e-9dad-45bc5d27c6d0",
+				"method": "GET"
+			}
+		]
+	}
+}
